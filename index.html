@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//Dtd XHTML 1.1//EN"
+"http://www.w3.org/tr/xhtml11/Dtd/xhtml11.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" > 
+<head> 
+<title>One Hundred Percent Height Divs</title> 
+<style type="text/css" media="screen"> 
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Georgia, serif;
+    color: #000; 
+    height:100%; 
+    min-height:100px;
+}
+
+body {
+    background: #fff; height:100%; min-height:100px;  
+}
+
+#header {
+    position: absolute;
+    width: 100%; 
+    height: 78px;
+    top: 0; left: 0;
+    background-color: yellow;
+}
+#headinner1,
+#headinner2
+{
+  padding: 10px;
+  background-color: orange;
+}
+
+#container {
+    background: blue none repeat scroll 0 0;
+    display: table;
+    height: 100%;
+    margin: auto;
+    overflow: auto;
+    position: relative;
+    width: 100%;
+}
+
+#content {
+    background: red none repeat scroll 0 0;
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+    display:table;
+}
+
+#sidewrapper {
+    height:100%; 
+}
+
+#content #sidebar.primary {
+        background-color: pink;
+        display: table;
+        float: left;
+        height: 100%;
+        margin:0px;
+}
+#content #sidebar {
+    float: left;
+    width: 180px;
+}
+
+#content #main {
+    background-color: green;
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+.sidebarprimaryinner,
+.maininner
+{
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding-top: 78px;
+    padding-bottom: 21px;
+    width: 100%;
+}
+.sidebarprimarycont,
+.maincont
+{
+    border: 1px solid blue;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+}
+.sidebarprimarycont
+{ 
+    padding: 10px;
+}
+.maincont
+{
+    padding: 10px 10px 10px 190px;
+}
+
+#footer {
+    position: absolute;
+    width: 100%; 
+    height: 23px;
+    bottom: 0; left: 0;
+    background-color: yellow;
+}
+
+
+
+</style>
+</head>
+<body>
+    <div id="container">
+<!--         <div id="header">
+          <div id="headinner1">cont</div>
+          <div id="headinner2">cont</div>
+        </div>
+
+ -->
+        <div id="content">
+<div id="header">
+          <div id="headinner1">cont</div>
+          <div id="headinner2">cont</div>
+        </div>
+          <div id="sidebar" class="primary">
+            <div class="sidebarprimaryinner">
+              <div class="sidebarprimarycont">
+
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+               
+
+              </div>
+            </div>
+          </div>
+          <div id="main">
+            <div class="maininner">
+              <div class="maincont">
+                
+                 
+
+                          <p>side</p>
+
+                          <!--
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                          <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                          <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                          <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                          <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                          <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                          <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                          <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                          <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                          <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                          <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>side</p>
+                <p>end side</p>
+  -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div id="footer">foot</div>
+ 
+      </div>
+
+</body>
+</html> 
